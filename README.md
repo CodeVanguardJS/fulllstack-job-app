@@ -72,7 +72,7 @@ Platform lowongan kerja yang memungkinkan user mencari dan melamar pekerjaan, se
 
 | Kebutuhan    | Tools                                          |
 | ------------ | ---------------------------------------------- |
-| Frontend     | Next.js + Tailwind CSS                         |
+| Frontend     | Next.js (App Router) + Tailwind CSS            |
 | Auth         | next-auth (Google login + credential)          |
 | DB ORM       | Prisma                                         |
 | Database     | PostgreSQL (bisa pakai Supabase / PlanetScale) |
@@ -199,8 +199,7 @@ Biar kamu bisa rencanakan UI/UX dan routing Next.js-nya, ini aku hitung **perkir
 
 ---
 
-Kalau kamu ingin versi **Minimal Viable Product (MVP)** dulu:
-
-> Fokus ke 8 halaman utama aja (landing, job list/detail, login, dashboard recruiter basic, apply/bookmark basic).
-
-Perlu bantuan bikin peta navigasi antar halaman (flowchart/struktur sitemap-nya)? Bisa aku bantuin juga!
+UI Reference: 
+- https://id.jobstreet.com/
+- https://glints.com/id
+- glassdoor (optional)
