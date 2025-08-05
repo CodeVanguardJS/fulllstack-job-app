@@ -172,10 +172,13 @@ Biar kamu bisa rencanakan UI/UX dan routing Next.js-nya, ini aku hitung **perkir
 ### 🧑‍💼 Recruiter Dashboard (3–4 halaman)
 
 12. `/dashboard/recruiter` – daftar job yang diposting 5, daftar applicant 5, jumlah applicant (Luthfi)
+
 12.1 `/dashboard/recruiter/job` - daftar job yang diposting (Arief)
+
 13. `/dashboard/recruiter/job/create` – form tambah job (Luthfi)
 14. `/dashboard/recruiter/job/edit/[id]` – form edit job (Luthfi)
 15. (opsional) `/dashboard/recruiter/applicants/[jobId]` – lihat pelamar job tertentu (Arief)
+
 15.1 `/dashboard/recruiter/job/{id}` - Detail Job Recruiter (Arief)
 
 ---
