@@ -145,42 +145,44 @@ Biar kamu bisa rencanakan UI/UX dan routing Next.js-nya, ini aku hitung **perkir
 
 ### 🔐 Auth Pages (2–3 halaman)
 
-1. `/login` – halaman login
-2. `/register` – halaman registrasi
-3. (opsional) `/forgot-password` – jika ingin tambah reset password
+1. `/login` – halaman login (Arief)
+2. `/register` – halaman registrasi (Arief)
+3. (opsional) `/forgot-password` & `/reset-password` – jika ingin tambah reset password (Arief)
 
 ---
 
 ### 🏠 Landing & Job Browsing (3–4 halaman)
 
-4. `/` – landing page
-5. `/jobs` – semua lowongan kerja
-6. `/jobs/[id]` – detail lowongan
+4. `/` – landing page (Arief)
+5. `/jobs` – semua lowongan kerja (Luthfi)
+6. `/jobs/[id]` – detail lowongan ( Luthfi )
 7. (opsional) `/companies/[id]` – profil perusahaan (kalau mau unik)
 
 ---
 
 ### 👤 Job Seeker Dashboard (3–4 halaman)
 
-8. `/dashboard/seeker` – dashboard utama pencari kerja
-9. `/dashboard/seeker/bookmarked` – daftar bookmark
-10. `/dashboard/seeker/applied` – daftar yang pernah dilamar
-11. (opsional) `/dashboard/seeker/profile` – edit profil, upload CV
+8. `/dashboard/seeker` – dashboard utama pencari kerja (Lutfi)
+9. `/dashboard/seeker/bookmarked` – daftar bookmark (Luthfi)
+10. `/dashboard/seeker/applied` – daftar yang pernah dilamar (Arief)
+11. (opsional) `/dashboard/seeker/profile` – edit profil, upload CV (Luthfi)
 
 ---
 
 ### 🧑‍💼 Recruiter Dashboard (3–4 halaman)
 
-12. `/dashboard/recruiter` – daftar job yang diposting
-13. `/dashboard/recruiter/create` – form tambah job
-14. `/dashboard/recruiter/edit/[id]` – form edit job
-15. (opsional) `/dashboard/recruiter/applicants/[jobId]` – lihat pelamar job tertentu
+12. `/dashboard/recruiter` – daftar job yang diposting 5, daftar applicant 5, jumlah applicant (Luthfi)
+12.1 `/dashboard/recruiter/job` - daftar job yang diposting (Arief)
+13. `/dashboard/recruiter/job/create` – form tambah job (Luthfi)
+14. `/dashboard/recruiter/job/edit/[id]` – form edit job (Luthfi)
+15. (opsional) `/dashboard/recruiter/applicants/[jobId]` – lihat pelamar job tertentu (Arief)
+15.1 `/dashboard/recruiter/job/{id}` - Detail Job Recruiter (Arief)
 
 ---
 
 ### ⚙️ Extra (Opsional)
 
-16. `/about` – info tentang platform
+16. `/about` – info tentang platform (Arief)
 17. `/contact` – form kontak
 18. `/terms` – syarat & ketentuan
 
