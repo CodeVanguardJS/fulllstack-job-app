@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Navbar from './components/Navbar'
 
 export default function Home() {
   const [query, setQuery] = useState('')
@@ -9,9 +8,6 @@ export default function Home() {
   const [selectedJob, setSelectedJob] = useState(null)
 
   const jobs = [
-    { title: 'Frontend Developer', company: 'Tech Innovators', location: 'Jakarta', type: 'Full-Time' },
-    { title: 'Backend Developer', company: 'Digital Future', location: 'Bandung', type: 'Full-Time' },
-    { title: 'UI/UX Designer', company: 'Creative Minds', location: 'Surabaya', type: 'Contract' },
     { title: 'Frontend Developer', company: 'Tech Innovators', location: 'Jakarta', type: 'Full-Time' },
     { title: 'Backend Developer', company: 'Digital Future', location: 'Bandung', type: 'Full-Time' },
     { title: 'UI/UX Designer', company: 'Creative Minds', location: 'Surabaya', type: 'Contract' },
@@ -25,12 +21,22 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 text-gray-800">
       {/* Header */}
-      <Navbar />
+      <header className="flex justify-between items-center px-6 py-4 bg-white shadow-sm sticky top-0 z-50">
+        <h1 className="text-2xl font-bold text-blue-600">JobPortal</h1>
+        <nav className="space-x-6 text-sm font-medium">
+          <a href="#home" className="hover:text-blue-600">Home</a>
+          <a href="#jobs" className="hover:text-blue-600">Lowongan</a>
+          <a href="#contact" className="hover:text-blue-600">Kontak</a>
+        </nav>
+        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-semibold">
+          Masuk
+        </button>
+      </header>
 
       {/* Hero Section */}
       <section
         id="home"
-        className="text-center py-20 px-6 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-400 text-white"
+        className="text-center py-20 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-4">Temukan Pekerjaan Impianmu</h2>
         <p className="text-lg text-blue-100 mb-8">
